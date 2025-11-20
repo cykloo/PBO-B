@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        System.out.println("=== Objek Manusia ===");
+        System.out.println("=== Manusia ===");
         Manusia manusia = new Manusia();
         manusia.bernapas();
         manusia.makan();
@@ -10,7 +10,7 @@ public class Main {
 
         System.out.println();
 
-        System.out.println("=== Objek Hewan ===");
+        System.out.println("=== Hewan ===");
         Hewan hewan = new Hewan();
         hewan.bernapas();
         hewan.makan();
@@ -20,7 +20,7 @@ public class Main {
 
         System.out.println();
 
-        System.out.println("=== Objek Tumbuhan ===");
+        System.out.println("=== Tumbuhan ===");
         Tumbuhan tumbuhan = new Tumbuhan();
         tumbuhan.bernapas();
         tumbuhan.makan();
